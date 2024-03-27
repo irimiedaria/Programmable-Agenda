@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/FACULTATE/PSN/PROIECT/Numarator_Minute_UNIT/MINUTE_UNIT.xst" -ofn "D:/FACULTATE/PSN/PROIECT/Numarator_Minute_UNIT/MINUTE_UNIT.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MINUTE_UNIT.ngc MINUTE_UNIT_synthesis.v 
+xst -intstyle ise -ifn "D:/FACULTATE/PSN/PROIECT/Numarator_0_9/MINUTE_UNIT.xst" -ofn "D:/FACULTATE/PSN/PROIECT/Numarator_0_9/MINUTE_UNIT.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim MINUTE_UNIT.ngc MINUTE_UNIT_synthesis.v 

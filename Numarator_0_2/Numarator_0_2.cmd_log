@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/FACULTATE/PSN/PROIECT/Numarator_0_2/Numarator_0_2.xst" -ofn "D:/FACULTATE/PSN/PROIECT/Numarator_0_2/Numarator_0_2.syr" 
+xst -intstyle ise -ifn "D:/FACULTATE/PSN/PROIECT/Numarator_0_2/Numarator_0_2.xst" -ofn "D:/FACULTATE/PSN/PROIECT/Numarator_0_2/Numarator_0_2.syr" 

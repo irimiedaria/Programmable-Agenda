@@ -1,0 +1,148 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: BCD_7_segmente.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "BCD_7_segmente.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "BCD_7_segmente"
+Output Format                      : NGC
+Target Device                      : xc7a100t-3-csg324
+
+---- Source Options
+Top Module Name                    : BCD_7_segmente
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" into library work
+Parsing entity <BCD_7_segmente>.
+Parsing architecture <Behavioral> of entity <bcd_7_segmente>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:746 - "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" Line 33: Range is empty (null range)
+WARNING:HDLCompiler:746 - "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" Line 35: Range is empty (null range)
+
+Elaborating entity <BCD_7_segmente> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" Line 43: on_off should be on the sensitivity list of the process
+WARNING:HDLCompiler:1018 - "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" Line 45: Case statement choice "0000" is outside the range of the select
+ERROR:HDLCompiler:308 - "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" Line 45: Choice "0000" should have 0 elements
+WARNING:HDLCompiler:1018 - "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" Line 46: Case statement choice "0001" is outside the range of the select
+ERROR:HDLCompiler:308 - "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" Line 46: Choice "0001" should have 0 elements
+WARNING:HDLCompiler:1018 - "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" Line 47: Case statement choice "0010" is outside the range of the select
+ERROR:HDLCompiler:308 - "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" Line 47: Choice "0010" should have 0 elements
+WARNING:HDLCompiler:1018 - "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" Line 48: Case statement choice "0011" is outside the range of the select
+ERROR:HDLCompiler:308 - "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" Line 48: Choice "0011" should have 0 elements
+WARNING:HDLCompiler:1018 - "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" Line 49: Case statement choice "0100" is outside the range of the select
+ERROR:HDLCompiler:308 - "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" Line 49: Choice "0100" should have 0 elements
+WARNING:HDLCompiler:1018 - "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" Line 50: Case statement choice "0101" is outside the range of the select
+ERROR:HDLCompiler:308 - "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" Line 50: Choice "0101" should have 0 elements
+WARNING:HDLCompiler:1018 - "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" Line 51: Case statement choice "0110" is outside the range of the select
+ERROR:HDLCompiler:308 - "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" Line 51: Choice "0110" should have 0 elements
+WARNING:HDLCompiler:1018 - "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" Line 52: Case statement choice "0111" is outside the range of the select
+ERROR:HDLCompiler:308 - "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" Line 52: Choice "0111" should have 0 elements
+WARNING:HDLCompiler:1018 - "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" Line 53: Case statement choice "1000" is outside the range of the select
+ERROR:HDLCompiler:308 - "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" Line 53: Choice "1000" should have 0 elements
+WARNING:HDLCompiler:1018 - "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" Line 54: Case statement choice "1001" is outside the range of the select
+ERROR:HDLCompiler:308 - "D:\FACULTATE\PSN\PROIECT\BCD_7_segmente\BCD_7_segmente.vhd" Line 54: Choice "1001" should have 0 elements
+Netlist BCD_7_segmente(Behavioral) remains a blackbox, due to errors in its contents
+--> 
+
+Total memory usage is 4497428 kilobytes
+
+Number of errors   :   10 (   0 filtered)
+Number of warnings :   13 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

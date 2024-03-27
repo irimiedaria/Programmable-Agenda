@@ -1,0 +1,91 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to D:/FACULTATE/PSN/PROIECT/Main/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Parameter xsthdpdir set to D:/FACULTATE/PSN/PROIECT/Main/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Reading design: Main.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "D:\FACULTATE\PSN\PROIECT\Main\Comparator_4_biti.vhd" into library work
+Parsing entity <Comparator_4_biti>.
+Parsing architecture <Behavioral> of entity <comparator_4_biti>.
+Parsing VHDL file "D:\FACULTATE\PSN\PROIECT\Numarator_0_9\MINUTE_UNIT.vhd" into library work
+Parsing entity <Numarator_0_9>.
+Parsing architecture <Behavioral> of entity <numarator_0_9>.
+Parsing VHDL file "D:\FACULTATE\PSN\PROIECT\Numarator_0_6\MINUTE_ZECI.vhd" into library work
+Parsing entity <Numarator_0_6>.
+Parsing architecture <Behavioral> of entity <numarator_0_6>.
+Parsing VHDL file "D:\FACULTATE\PSN\PROIECT\Numarator_0_3\Numarator_0_3.vhd" into library work
+Parsing entity <Numarator_0_3>.
+Parsing architecture <Behavioral> of entity <numarator_0_3>.
+Parsing VHDL file "D:\FACULTATE\PSN\PROIECT\Numarator_0_2\Numarator_0_2.vhd" into library work
+Parsing entity <Numarator_0_2>.
+Parsing architecture <Behavioral> of entity <numarator_0_2>.
+Parsing VHDL file "D:\FACULTATE\PSN\PROIECT\Main\rand_gen.vhd" into library work
+Parsing entity <rand_gen>.
+Parsing architecture <Behavioral> of entity <rand_gen>.
+Parsing VHDL file "D:\FACULTATE\PSN\PROIECT\Main\Numarator_0_13.vhd" into library work
+Parsing entity <Numarator_0_13>.
+Parsing architecture <Behavioral> of entity <numarator_0_13>.
+Parsing VHDL file "D:\FACULTATE\PSN\PROIECT\Main\Comparator_alarma.vhd" into library work
+Parsing entity <Comparator_alarma>.
+Parsing architecture <Behavioral> of entity <comparator_alarma>.
+Parsing VHDL file "D:\FACULTATE\PSN\PROIECT\Main\BCD_LITERA_2.vhd" into library work
+Parsing entity <BCD_litera_2>.
+Parsing architecture <Behavioral> of entity <bcd_litera_2>.
+Parsing VHDL file "D:\FACULTATE\PSN\PROIECT\Main\BCD_litera1.vhd" into library work
+Parsing entity <BCD_litera1>.
+Parsing architecture <Behavioral> of entity <bcd_litera1>.
+Parsing VHDL file "D:\FACULTATE\PSN\PROIECT\Main\Main.vhd" into library work
+Parsing entity <Main>.
+Parsing architecture <Behavioral> of entity <main>.
+Parsing VHDL file "D:\FACULTATE\PSN\PROIECT\Main\BCD_litera2.vhd" into library work
+Parsing entity <BCD_litera2>.
+Parsing architecture <Behavioral> of entity <bcd_litera1>.
+WARNING:HDLCompiler:686 - "D:\FACULTATE\PSN\PROIECT\Main\BCD_litera2.vhd" Line 37: Overwriting existing secondary unit behavioral
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.92 secs
+ 
+--> 
+
+Total memory usage is 4494892 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

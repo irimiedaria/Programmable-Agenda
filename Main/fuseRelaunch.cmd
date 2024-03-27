@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/FACULTATE/PSN/PROIECT/Main/MAIN_ULTIMUL_TEST_isim_beh.exe" -prj "D:/FACULTATE/PSN/PROIECT/Main/MAIN_ULTIMUL_TEST_beh.prj" "work.MAIN_ULTIMUL_TEST" 

@@ -1,0 +1,2 @@
+vhdl work "Generare_temp_unit.vhd"
+vhdl work "test_generator.vhd"

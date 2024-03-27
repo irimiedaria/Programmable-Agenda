@@ -1,0 +1,43 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o D:/FACULTATE/PSN/PROIECT/Main/MAIN_ULTIMUL_TEST_isim_beh.exe -prj D:/FACULTATE/PSN/PROIECT/Main/MAIN_ULTIMUL_TEST_beh.prj work.MAIN_ULTIMUL_TEST 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/FACULTATE/PSN/PROIECT/Main/Comparator_4_biti.vhd" into library work
+Parsing VHDL file "D:/FACULTATE/PSN/PROIECT/Main/BCD_litera1.vhd" into library work
+Parsing VHDL file "D:/FACULTATE/PSN/PROIECT/Main/../Numarator_0_9/MINUTE_UNIT.vhd" into library work
+Parsing VHDL file "D:/FACULTATE/PSN/PROIECT/Main/../Numarator_0_6/MINUTE_ZECI.vhd" into library work
+Parsing VHDL file "D:/FACULTATE/PSN/PROIECT/Main/../Numarator_0_3/Numarator_0_3.vhd" into library work
+Parsing VHDL file "D:/FACULTATE/PSN/PROIECT/Main/../Numarator_0_2/Numarator_0_2.vhd" into library work
+Parsing VHDL file "D:/FACULTATE/PSN/PROIECT/Main/rand_gen.vhd" into library work
+Parsing VHDL file "D:/FACULTATE/PSN/PROIECT/Main/Numarator_0_13.vhd" into library work
+Parsing VHDL file "D:/FACULTATE/PSN/PROIECT/Main/Comparator_alarma.vhd" into library work
+Parsing VHDL file "D:/FACULTATE/PSN/PROIECT/Main/BCD_LITERA_2.vhd" into library work
+Parsing VHDL file "D:/FACULTATE/PSN/PROIECT/Main/BCD_litera2.vhd" into library work
+WARNING:HDLCompiler:686 - "D:/FACULTATE/PSN/PROIECT/Main/BCD_litera2.vhd" Line 37: Overwriting existing secondary unit behavioral
+Parsing VHDL file "D:/FACULTATE/PSN/PROIECT/Main/Main.vhd" into library work
+Parsing VHDL file "D:/FACULTATE/PSN/PROIECT/Main/MAIN_ULTIMUL_TEST.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity Numarator_0_9 [numarator_0_9_default]
+Compiling architecture behavioral of entity Numarator_0_6 [numarator_0_6_default]
+Compiling architecture behavioral of entity Numarator_0_2 [numarator_0_2_default]
+Compiling architecture behavioral of entity Numarator_0_3 [numarator_0_3_default]
+Compiling architecture behavioral of entity Numarator_0_13 [numarator_0_13_default]
+Compiling architecture behavioral of entity Comparator_4_biti [comparator_4_biti_default]
+Compiling architecture behavioral of entity Comparator_alarma [comparator_alarma_default]
+Compiling architecture behavioral of entity rand_gen [rand_gen_default]
+Compiling architecture behavioral of entity BCD_litera1 [bcd_litera1_default]
+Compiling architecture behavioral of entity BCD_litera_2 [bcd_litera_2_default]
+Compiling architecture behavioral of entity Main [main_default]
+Compiling architecture behavior of entity main_ultimul_test
+Time Resolution for simulation is 1ps.
+Waiting for 8 sub-compilation(s) to finish...
+Compiled 27 VHDL Units
+Built simulation executable D:/FACULTATE/PSN/PROIECT/Main/MAIN_ULTIMUL_TEST_isim_beh.exe
+Fuse Memory Usage: 34332 KB
+Fuse CPU Usage: 374 ms

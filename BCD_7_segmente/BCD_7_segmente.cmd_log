@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "D:/FACULTATE/PSN/PROIECT/BCD_7_segmente/BCD_7_segmente.xst" -ofn "D:/FACULTATE/PSN/PROIECT/BCD_7_segmente/BCD_7_segmente.syr" 
+xst -intstyle ise -ifn "D:/FACULTATE/PSN/PROIECT/BCD_7_segmente/BCD_7_segmente.xst" -ofn "D:/FACULTATE/PSN/PROIECT/BCD_7_segmente/BCD_7_segmente.syr" 

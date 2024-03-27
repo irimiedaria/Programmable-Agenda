@@ -1,0 +1,29 @@
+Command line:
+   TEST_FINAL_FARA_BCD_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  64745
+
+Tue May 31 14:50:59 2022
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5149.81 Meg
+
+ Total Signals          : 208
+ Total Nets             : 218
+ Total Signal Drivers   : 73
+ Total Blocks           : 22
+ Total Primitive Blocks : 19
+ Total Processes        : 30
+ Total Traceable Variables  : 11
+ Total Scalar Nets and Variables : 597
+Total Line Count : 179
+
+ Total Simulation Time: 0.015625 sec
+
+ Current Memory Usage: 5464.38 Meg
+
+Tue May 31 14:51:55 2022
+

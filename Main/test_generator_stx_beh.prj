@@ -1,0 +1,2 @@
+vhdl isim_temp "Generare_temp_unit.vhd"
+vhdl isim_temp "test_generator.vhd"

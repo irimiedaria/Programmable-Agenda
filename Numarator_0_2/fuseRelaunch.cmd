@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/FACULTATE/PSN/PROIECT/Numarator_0_2/t2_isim_beh.exe" -prj "D:/FACULTATE/PSN/PROIECT/Numarator_0_2/t2_beh.prj" "work.t2" 
